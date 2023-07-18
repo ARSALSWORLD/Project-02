@@ -1,0 +1,109 @@
+* {
+  margin: 0%;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#main {
+  width: 100%;
+  height: 100%;
+  background-color: #bea5ab;
+  display: flex;
+}
+#part1 {
+  height: 100%;
+  width: 26%;
+  background-color: #bea5ab;
+}
+#part2 {
+  height: 100%;
+  width: 67%;
+  background-color: rgba(127, 255, 212, 0.406);
+  background-image: url(https://images.unsplash.com/photo-1613991917190-e68d404b2617?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80);
+  background-size: cover;
+  background-position: center;
+}
+#overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.405);
+}
+#part3 {
+  height: 100%;
+  width: 7%;
+  background-color: #bea5ab;
+}
+#text {
+  position: absolute;
+  width: 400px;
+  left: 7%;
+  top: 55%;
+  transform: translate(0, -50%);
+}
+#text h1 {
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 50px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 8px;
+}
+#text p {
+  opacity: 0.6;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: rgba(2, 2, 2, 0.533);
+}
+#smallimg {
+  height: 400px;
+  width: 300px;
+  background-image: url(https://images.unsplash.com/photo-1613991917221-4723976fa917?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translate(0%, -50%);
+}
+#verticaltext {
+  position: absolute;
+  transform: rotate(90deg);
+  transform-origin: 0% 0%;
+  right: -45%;
+}
+#verticaltext h1 {
+  font-size: 66px;
+  font-weight: 900;
+  color: transparent;
+  letter-spacing: 4px;
+
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: azure;
+}
+#nav img {
+  height: 10%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  left: 140%;
+  top: 5%;
+}
+#nav h5 {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  right: 63%;
+  align-items: center;
+  justify-content: space-between;
+  bottom: 87%;
+}
